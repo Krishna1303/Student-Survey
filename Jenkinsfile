@@ -12,7 +12,7 @@ pipeline{
 					sh 'jar -cvf Assignment2.war -C src/main/webapp .'
 					sh 'echo ${BUILD_TIMESTAMP}'
 					sh 'docker login -u krishna1303 -p ${DOCKERHUB_PASS}'
-					sh 'docker build -t survey .'
+					sh 'docker build -t krishna1303/survey .'
 				}
 			}
 		}
