@@ -12,7 +12,7 @@ pipeline{
 					sh 'jar -cvf Assignment2.war -C src/main/webapp .'
 					sh 'echo ${BUILD_TIMESTAMP}'
 					sh 'docker login -u krishna1303 -p ${DOCKERHUB_PASS}'
-					def customImage = docker.build('krishna1303/survey:${BUILD_TIMESTAMP}')
+					sh 'docker build -t survey:${BUILD_TIMESTAMP} .'
 				}
 			}
 		}
