@@ -7,7 +7,7 @@
 </head>
 <body style="background-image: linear-gradient(#33adff, #7300e6);">
 <div class="container" style="color: white;text-align: center;margin-top: 50px">
-    <h1>Student Survey version 0.1</h1>
+    <h1>Student Survey version 0.2</h1>
 </div>
 <div class="container" style="background-color: rgba(0, 0, 0, 0.6);border-radius: 10px;color: white;margin-top: 25px;margin-bottom: 50px">
     <form action="${pageContext.request.contextPath}/thanks.jsp" method="post" style="margin-bottom: 50px;margin-top: 25px">
