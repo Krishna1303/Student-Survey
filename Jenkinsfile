@@ -27,7 +27,7 @@ pipeline{
 			steps{
 				script{
 					sh 'export KUBECONFIG=~/.kube/config'
-					sh 'kubectl set image deployment/survey survey=krishna1303/survey -n 645clusternamespace'
+					sh 'kubectl set image deployment/survey container-0=krishna1303/survey -n 645clusternamespace'
 				}
 			}
 		}
