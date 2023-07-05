@@ -12,21 +12,21 @@ pipeline{
 					sh 'jar -cvf Assignment2.war -C src/main/webapp .'
 					sh 'echo ${BUILD_TIMESTAMP}'
 					sh 'docker login -u krishna1303 -p ${DOCKERHUB_PASS}'
-					sh 'docker build -t survey:0.1 .'
+					sh 'docker build -t survey .'
 				}
 			}
 		}
 		stage("Pushing image to docker"){
 			steps{
 				script{
-					sh 'docker push krishna1303/survey:0.1'
+					sh 'docker push krishna1303/survey'
 				}
 			}
 		}
 		stage("Deploying to rancher"){
 			steps{
 				script{
-					sh 'kubectl set image deployment/survey survey=krishna1303/survey:0.1 -n 645clusternamespace'
+					sh 'kubectl set image deployment/survey survey=krishna1303/survey -n 645clusternamespace'
 				}
 			}
 		}
