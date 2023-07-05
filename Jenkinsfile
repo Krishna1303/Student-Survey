@@ -26,6 +26,7 @@ pipeline{
 		stage("Deploying to rancher"){
 			steps{
 				script{
+					sh 'export KUBECONFIG=~/.kube/config'
 					sh 'kubectl set image deployment/survey survey=krishna1303/survey -n 645clusternamespace'
 				}
 			}
