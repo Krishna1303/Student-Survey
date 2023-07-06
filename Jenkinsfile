@@ -9,7 +9,7 @@ pipeline{
 				script{
 					checkout scm
 					sh 'rm -rf *.war'
-					sh 'jar -cvf Assignment2.war -C src/main/webapp .'
+					sh 'jar -cvf StudentSurvey.war -C src/main/webapp .'
 					sh 'echo ${BUILD_TIMESTAMP}'
 					sh 'docker login -u kubernetes1100 -p ${DOCKERHUB_PASS}'
 					sh 'docker build -t kubernetes1100/student-survey .'
