@@ -4,6 +4,10 @@
 <head>
     <title>Student Survey version 0.1</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <meta name="og:image" content="https://res.cloudinary.com/dfgqfz271/image/upload/v1688665007/istockphoto-832627158-612x612_dnnkhl.jpg">
+  <meta name="og:title" content="SWE 645 Assigment 2 Sample">
+  <meta name="og:description" content="This appliation is runned using the Kubernetes and Docker in EC2">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body style="background-image: linear-gradient(#33adff, #7300e6);">
 <div class="container" style="color: white;text-align: center;margin-top: 50px">
