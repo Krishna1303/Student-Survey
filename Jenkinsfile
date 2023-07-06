@@ -19,7 +19,7 @@ pipeline{
 		stage("Pushing image to docker"){
 			steps{
 				script{
-					sh 'docker push krishna1303/survey'
+					sh 'docker push kubernetes1100/student-survey'
 				}
 			}
 		}
