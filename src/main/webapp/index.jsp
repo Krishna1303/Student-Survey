@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Student Survey version 0.1</title>
+    <title>Student Survey version 0.2</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <meta name="og:image" content="https://res.cloudinary.com/dfgqfz271/image/upload/v1688665007/istockphoto-832627158-612x612_dnnkhl.jpg">
   <meta name="og:title" content="SWE 645 Assigment 2 Sample">
