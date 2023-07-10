@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Student Survey version 0.5</title>
+    <title>Student Survey version 0.6</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <meta name="og:image" content="https://res.cloudinary.com/dfgqfz271/image/upload/v1688665007/istockphoto-832627158-612x612_dnnkhl.jpg">
   <meta name="og:title" content="SWE 645 Assigment 2 Sample">
@@ -11,7 +11,7 @@
 </head>
 <body style="background-image: linear-gradient(#33adff, #7300e6);">
 <div class="container" style="color: white;text-align: center;margin-top: 50px">
-    <h1>Student Survey version 0.5</h1>
+    <h1>Student Survey version 0.6</h1>
 </div>
 <div class="container" style="background-color: rgba(0, 0, 0, 0.6);border-radius: 10px;color: white;margin-top: 25px;margin-bottom: 50px">
     <form action="${pageContext.request.contextPath}/thanks.jsp" method="post" style="margin-bottom: 50px;margin-top: 25px">
